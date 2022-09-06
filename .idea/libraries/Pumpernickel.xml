@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Pumpernickel">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/Pumpernickel.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,7 @@
+{
+    "java.dependency.packagePresentation": "flat",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\mohit\\JavaAPI\\pumpernickel-master\\lib\\junit-4.8.2.jar"
+    ]
+}
