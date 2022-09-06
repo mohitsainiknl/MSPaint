@@ -1,36 +1,35 @@
-/*
- * Copyright (c) 2021 Mohit Saini, Under MIT License. Use is subject to license terms.
- * 
- */
-
 package mspaint;
 
 import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
 
-import mspaint.handler.Handler;
-import mspaint.values.InitValues;
-import mspaint.values.Theme;
+import mspaint.gui.GUIHandler;
+import mspaint.style.DefaultStyle;
+import mspaint.style.Style;
+import mspaint.theme.DefaultTheme;
+import mspaint.theme.Theme;
 
 /**
- * MainLauncher class is the stating point of this MSPaint application.
- * It first try to load the System Look and Feel.
+ * MainLauncher
  */
 public class MainLauncher {
-    final Handler handler;
-    final Theme theme;
-    final InitValues initValues;
+    GUIHandler gui;
+    Style style;
+    Theme theme;
 
     private MainLauncher() {
-        theme = new Theme();
-        initValues = new InitValues();
-        handler = new Handler(theme, initValues);
-        handler.handle();
+        style = new DefaultStyle();
+        theme = new DefaultTheme();
+        gui = new GUIHandler(style, theme);
+        gui.handle();
     }
 
     public static void main(String[] args) {
         try {
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-        } catch (Exception e) {}
+        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException
+                | UnsupportedLookAndFeelException e) {
+        }
         new MainLauncher();
     }
 }

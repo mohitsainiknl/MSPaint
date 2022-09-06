@@ -8,8 +8,6 @@ import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.awt.Component;
-import java.io.Serial;
-
 import javax.swing.JPanel;
 
 import com.gmail.mohitsainiknl2.util.debug.Assertion;
@@ -28,7 +26,6 @@ public class GridBagPanel extends JPanel {
     /**
 	 * This is the serialVersionUID just for the compatibility reasons.
 	 */
-    @Serial
 	private static final long serialVersionUID = -8973520301847179288L;
 
     public static final int NORTH = GridBagConstraints.NORTH;

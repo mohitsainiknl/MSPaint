@@ -1,4 +1,9 @@
 /.idea/
 /.vscode/
-/MSCalculator.iml/
-/res/
+/MSPaint.iml/
+/.classpath/
+/.project/
+/bin/
+/out/
+/.readme/
+/publish/
