@@ -7,10 +7,10 @@
 
 <p align="center">
   <a href="https://github.com/mohitsainiknl/MSPaint">
-    <img src="https://badgen.net/github/license/mohitsainiknl/MSPaint">
+    <img src="https://img.shields.io/github/license/mohitsainiknl/MSPaint?color=blue">
   </a>
   <a href="https://github.com/mohitsainiknl/MSPaint">
-    <img alt="" src="https://badgen.net/badge/Java/>=v1.8.0/green">
+    <img alt="" src="https://badgen.net/badge/java/>=v1.8.0/green">
   </a>
   <a href="https://github.com/mohitsainiknl/MSPaint">
     <img alt="" src="https://badgen.net/github/release/mohitsainiknl/MSPaint/latest">
@@ -19,10 +19,7 @@
     <img alt="" src="https://badgen.net/github/commits/mohitsainiknl/MSPaint?color=pink">
   </a>
   <a href="https://github.com/mohitsainiknl/MSPaint">
-    <img alt="" src="https://badgen.net/github/starts/mohitsainiknl/MSPaint?color=yellow">
-  </a>
-  <a href="https://github.com/mohitsainiknl/MSPaint">
-    <img alt="" src="https://badgen.net/github/open-issues/mohitsainiknl/MSPaint?color=red">
+    <img alt="" src="https://img.shields.io/github/stars/mohitsainiknl/MSPaint?color=yellow">
   </a>
 </p>
 
@@ -31,6 +28,70 @@
 </p>
 
 ![Screenshot of MSPaint](/.readme/mspaint-home.png)
+
+## Overview : 
+This __MSPaint__ is the upgraded version of the _Microsoft Paint_, and is developed in Java programming language with Swing framework(therefore, can be __used on MacOS and Linux__ based operating system). This paint has many more features like - We can edit PNG image __without loosing the transparency__ of image, We can work one Layers of image, and We __can apply filter__ on the image.
+
+MSPaint use `Graphics2D` to draw shapes, by `@overriding` the `paintComponent` function of `JComponent`. Even the buttons are design with `paintComponent` function by extending the `JButton` class in `TButton` class.
+```java
+public class TButton extends JButton {
+
+	    public TButton(String text) {
+        super(text);
+        setFocusable(false);
+        setMargin(new Insets(3, 5, 3, 5));
+        setContentAreaFilled(false);
+    }
+	    @Override
+    public void paintComponent(Graphics g) {
+
+		// drawing customized button here with the help of g
+
+        super.paintComponent(g);	//<--- for print button text
+    }
+}
+```
+You can see the basic layout of `MSPaint` by following the link below:<br>
+https://github.com/mohitsainiknl/MSPaint/blob/master/.readme/mspaint-layout.png
+<br>
+<br>
+
+## Features : 
+All upgraded features are given below:
+<br>
+
+<ul>
+  <li>
+    <p><b>PNG Support (without loosing transparency)</b><br>
+    MSPaint support the `alpha` channel, which make it possitble to work wth layers and editing the png image.
+</p>
+  </li>
+  <li>
+<p><b>Layers Support</b> <br>
+<img height="64" src=".readme/mspaint-icon/layers_tool.png"/> <br>
+Every layer is made up of `JPanel`, which are one-upon another in the `viewport`. We can add Layers and hide them with help of buttons given upon the layers.
+  </p>
+  </li>
+  <li>
+<p><b>Filters Support</b> <br>
+<img height="64" src=".readme/mspaint-icon/filter_tool.png"/> <br>
+Sample of the filters are given in the filters tag. filter settings are also given upon the filters list.  <br>
+  <i>For more details follow the link :</i> <br>
+http://www.jhlabs.com/ip/filters/index.html
+  </p>
+  </li>
+  <li>
+<p><b>Floating Canvas</b> <br>
+We can also float the canvas like in _Photoshop_, with the help of button given in view tab.
+  </p>
+  </li>
+</ul>
+<br>
+
+__Note :- All the feature are NOT completely implemented yet.__
+<br>
+<br>
+<br>
 
 
 ---
