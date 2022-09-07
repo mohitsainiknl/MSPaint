@@ -36,16 +36,17 @@ MSPaint use `Graphics2D` to draw shapes, by `@overriding` the `paintComponent` f
 ```java
 public class TButton extends JButton {
 
-	    public TButton(String text) {
+    public TButton(String text) {
         super(text);
         setFocusable(false);
         setMargin(new Insets(3, 5, 3, 5));
         setContentAreaFilled(false);
     }
-	    @Override
+
+    @Override
     public void paintComponent(Graphics g) {
 
-		// drawing customized button here with the help of g
+        // drawing customized button here with the help of g
 
         super.paintComponent(g);	//<--- for print button text
     }
@@ -89,6 +90,16 @@ We can also float the canvas like in _Photoshop_, with the help of button given 
 <br>
 
 __Note :- All the feature are NOT completely implemented yet.__
+<br>
+<br>
+<br>
+
+## Demo Video : 
+<a href="https://youtu.be/e46Miyev3BY">
+	<img height="256" src="/.readme/youtube-thumbnail.png">
+</a>
+
+
 <br>
 <br>
 <br>
