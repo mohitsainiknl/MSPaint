@@ -27,10 +27,10 @@
  Give a :star: if you <b>like it!</b><br>
 </p>
 
-![Screenshot of MSPaint](/.readme/mspaint-home.png)
+![Screenshot of MSPaint](/.readme/mspaint-home-new.png)
 
 ## Overview : 
-This __MSPaint__ is the upgraded version of the _Microsoft Paint_, and is developed in Java programming language with Swing framework(therefore, can be __used on MacOS and Linux__ based operating system). This paint has many more features like - We can edit PNG image __without loosing the transparency__ of image, We can work one Layers of image, and We __can apply filter__ on the image.
+This __MSPaint__ is the upgraded version of the _Microsoft Paint_, and is developed in the Java programming language with the Swing framework (therefore, can be __used on MacOS and Linux__ based operating system). This paint has many more features like - We can edit PNG images __without losing the transparency__ of an image, We can work one Layers of image, and We __can apply filters__ to the image.
 
 MSPaint use `Graphics2D` to draw shapes, by `@overriding` the `paintComponent` function of `JComponent`. Even the buttons are design with `paintComponent` function by extending the `JButton` class in `TButton` class.
 ```java

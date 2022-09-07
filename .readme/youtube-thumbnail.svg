@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="thumbnail" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 560 288" style="enable-background:new 0 0 560 288;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FF0000;}
+    #container:hover #red {fill:#515151}
+	.st1{fill:#FFFFFF;}
+    #container:hover #white {fill:#eaeaea}
+</style>
+<g id="container">
+    <image style="overflow:visible;" width="1067" height="600" id="ybanner" xlink:href="youtube-thumbnail.png"  transform="matrix(0.6 0 0 0.6 -40 -36)">
+    </image>
+    <g id="ylogo">
+        <path id="red" class="st0" d="M310.2,128.6c-0.7-2.7-2.9-4.9-5.6-5.6c-4.9-1.3-24.6-1.3-24.6-1.3s-19.7,0-24.6,1.3
+            c-2.7,0.7-4.8,2.9-5.6,5.6c-1.3,4.9-1.3,15.3-1.3,15.3s0,10.3,1.3,15.3c0.7,2.7,2.9,4.9,5.6,5.6c4.9,1.3,24.6,1.3,24.6,1.3
+            s19.7,0,24.6-1.3c2.7-0.7,4.8-2.9,5.6-5.6c1.3-4.9,1.3-15.3,1.3-15.3S311.5,133.6,310.2,128.6"/>
+        <path id="white" class="st1" d="M273.6,153.2l16.5-9.4l-16.5-9.4V153.2z"/>
+    </g>
+</g>
+</svg>
