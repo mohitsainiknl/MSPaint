@@ -30,9 +30,13 @@
 ![Screenshot of MSPaint](/.readme/mspaint-home-new.png)
 
 ## Overview : 
-This __MSPaint__ is the upgraded version of the _Microsoft Paint_, and is developed in the Java programming language with the Swing framework (therefore, can be __used on MacOS and Linux__ based operating system). This paint has many more features like - We can edit PNG images __without losing the transparency__ of an image, We can work one Layers of image, and We __can apply filters__ to the image.
+This MSPaint is the upgraded version of the _Microsoft Paint_, and is developed in the Java programming
+ language with the Swing framework (therefore, can be used on MacOS and Linux based operating system).
+ This paint has many more features like — We can edit PNG images without losing the transparency of an image,
+ We can work one Layers of image, and We can apply filters to the image.
 
-MSPaint use `Graphics2D` to draw shapes, by `@overriding` the `paintComponent` function of `JComponent`. Even the buttons are design with `paintComponent` function by extending the `JButton` class in `TButton` class.
+MSPaint use `Graphics2D` to draw shapes, by `@overriding` the `paintComponent` The function of `JComponent`.
+ Even the buttons are designed with `paintComponent` function by extending the `JButton` class in `TButton` Class.
 ```java
 public class TButton extends JButton {
 
@@ -69,13 +73,13 @@ All upgraded features are given below:
   </li>
   <li>
 <p><b>Layers Support</b> <br>
-<img height="64" src=".readme/mspaint-icon/layers_tool.png"/> <br>
+<img height="64" src=".readme/mspaint-icon/layers-tool.png"/> <br>
 Every layer is made up of `JPanel`, which are one-upon another in the `viewport`. We can add Layers and hide them with help of buttons given upon the layers.
   </p>
   </li>
   <li>
 <p><b>Filters Support</b> <br>
-<img height="64" src=".readme/mspaint-icon/filter_tool.png"/> <br>
+<img height="64" src=".readme/mspaint-icon/filter-tool.png"/> <br>
 Sample of the filters are given in the filters tag. filter settings are also given upon the filters list.  <br>
   <i>For more details follow the link :</i> <br>
 http://www.jhlabs.com/ip/filters/index.html
@@ -96,7 +100,7 @@ __Note :- All the feature are NOT completely implemented yet.__
 
 ## Demo Video : 
 <a href="https://youtu.be/e46Miyev3BY">
-	<img height="256" src="/.readme/youtube-thumbnail.png">
+	<img width="560" src="/.readme/demo-on-youtube.png">
 </a>
 
 

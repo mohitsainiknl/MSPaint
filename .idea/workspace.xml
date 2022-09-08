@@ -7,12 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e9d8105-e0a5-48d0-8f0a-3cac99afb085" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.readme/mspaint-icon/aaa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.readme/mspaint-icon/filter_tool.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.readme/mspaint-icon/filter_tool.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.readme/mspaint-icon/layers_tool.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.readme/youtube-thumbnail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.readme/youtube-thumbnail.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gmail/mohitsainiknl2/util/gui/GridBagPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/mohitsainiknl2/util/gui/GridBagPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mspaint/MainLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mspaint/MainLauncher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
