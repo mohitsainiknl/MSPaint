@@ -99,10 +99,12 @@ __Note :- All the feature are NOT completely implemented yet.__
 <br>
 
 ## Demo Video : 
-<a href="https://youtu.be/e46Miyev3BY">
+
+<a href="https://youtu.be/OcuZua8UmmA">
 	<img width="560" src="/.readme/demo-on-youtube.png">
 </a>
 
+**Full Video Link :** <a href="https://www.linkedin.com/posts/mohitsainiknl_microsoft-windows-java-activity-6973237193330819072-UfYJ">Linkedin Post</a>
 
 <br>
 <br>
